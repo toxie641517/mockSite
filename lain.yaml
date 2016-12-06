@@ -9,7 +9,11 @@ build:
 
 release:
   dest_base: sunyi00/ubuntu-nginx:latest
-
+  copy:
+    - src: /*
+      dest: /usr/share/nginx/html/
+    - src: /lain/app/entry.sh
+      dest: /entry.sh
 
 web:
   cmd: /entry.sh
