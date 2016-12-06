@@ -1,4 +1,4 @@
-appname: microloan-docs
+appname: microloan-mockserver
 
 build:
   base: hongqn/centos7-python3:1.0.0
