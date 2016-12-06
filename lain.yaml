@@ -10,8 +10,8 @@ build:
 release:
   dest_base: sunyi00/ubuntu-nginx:latest
   copy:
-    - src: /lain/app/entry.sh
-      dest: /entry.sh
+    - src: /lain/app/index.html
+      dest: /index.html
 
 web:
   cmd: /entry.sh
